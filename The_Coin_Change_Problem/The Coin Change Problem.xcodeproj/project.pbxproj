@@ -3,15 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03A1B4C02210C7540041B1A4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A1B4BF2210C7540041B1A4 /* main.swift */; };
+		CA24C1F634322D00968E8870 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA24C3815E1DFA419E79523D /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		03A1B4BA2210C7540041B1A4 /* CopyFiles */ = {
+		CA24C17804B184C74DBC2B88 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		03A1B4BC2210C7540041B1A4 /* Bon Appetit */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Bon Appetit"; sourceTree = BUILT_PRODUCTS_DIR; };
-		03A1B4BF2210C7540041B1A4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		CA24C3815E1DFA419E79523D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		CA24C41F91E63A2E0C951275 /* The Coin Change Problem */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "The Coin Change Problem"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		03A1B4B92210C7540041B1A4 /* Frameworks */ = {
+		CA24C748C8F506914B3EF45F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,95 +38,88 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		03A1B4B32210C7540041B1A4 = {
+		CA24C4D27A993ABD4F6FB886 = {
 			isa = PBXGroup;
 			children = (
-				03A1B4BE2210C7540041B1A4 /* Bon Appetit */,
-				03A1B4BD2210C7540041B1A4 /* Products */,
+				CA24CE9B8581B5A87DAC3FFA /* Products */,
+				CA24C59BEF483F3A075F7112 /* The Coin Change Problem */,
 			);
 			sourceTree = "<group>";
 		};
-		03A1B4BD2210C7540041B1A4 /* Products */ = {
+		CA24C59BEF483F3A075F7112 /* The Coin Change Problem */ = {
 			isa = PBXGroup;
 			children = (
-				03A1B4BC2210C7540041B1A4 /* Bon Appetit */,
+				CA24C3815E1DFA419E79523D /* main.swift */,
+			);
+			path = "The Coin Change Problem";
+			sourceTree = "<group>";
+		};
+		CA24CE9B8581B5A87DAC3FFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA24C41F91E63A2E0C951275 /* The Coin Change Problem */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		03A1B4BE2210C7540041B1A4 /* Bon Appetit */ = {
-			isa = PBXGroup;
-			children = (
-				03A1B4BF2210C7540041B1A4 /* main.swift */,
-			);
-			path = "Bon Appetit";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		03A1B4BB2210C7540041B1A4 /* Bon Appetit */ = {
+		CA24CEB798295AF8239DAB8D /* The Coin Change Problem */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 03A1B4C32210C7540041B1A4 /* Build configuration list for PBXNativeTarget "Bon Appetit" */;
+			buildConfigurationList = CA24C35523D287FF07695054 /* Build configuration list for PBXNativeTarget "The Coin Change Problem" */;
 			buildPhases = (
-				03A1B4B82210C7540041B1A4 /* Sources */,
-				03A1B4B92210C7540041B1A4 /* Frameworks */,
-				03A1B4BA2210C7540041B1A4 /* CopyFiles */,
+				CA24C88979D8F1278717AD71 /* Sources */,
+				CA24C748C8F506914B3EF45F /* Frameworks */,
+				CA24C17804B184C74DBC2B88 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Bon Appetit";
-			productName = "Bon Appetit";
-			productReference = 03A1B4BC2210C7540041B1A4 /* Bon Appetit */;
+			name = "The Coin Change Problem";
+			productName = "The Coin Change Problem";
+			productReference = CA24C41F91E63A2E0C951275 /* The Coin Change Problem */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		03A1B4B42210C7540041B1A4 /* Project object */ = {
+		CA24C295B25C5375621ECB90 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1010;
-				LastUpgradeCheck = 1010;
-				ORGANIZATIONNAME = "Shawon Ashraf";
-				TargetAttributes = {
-					03A1B4BB2210C7540041B1A4 = {
-						CreatedOnToolsVersion = 10.1;
-					};
-				};
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
 			};
-			buildConfigurationList = 03A1B4B72210C7540041B1A4 /* Build configuration list for PBXProject "Bon Appetit" */;
-			compatibilityVersion = "Xcode 9.3";
-			developmentRegion = en;
+			buildConfigurationList = CA24CB861B8EB7AFFC880A76 /* Build configuration list for PBXProject "The Coin Change Problem" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 03A1B4B32210C7540041B1A4;
-			productRefGroup = 03A1B4BD2210C7540041B1A4 /* Products */;
+			mainGroup = CA24C4D27A993ABD4F6FB886;
+			productRefGroup = CA24CE9B8581B5A87DAC3FFA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				03A1B4BB2210C7540041B1A4 /* Bon Appetit */,
+				CA24CEB798295AF8239DAB8D /* The Coin Change Problem */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		03A1B4B82210C7540041B1A4 /* Sources */ = {
+		CA24C88979D8F1278717AD71 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03A1B4C02210C7540041B1A4 /* main.swift in Sources */,
+				CA24C1F634322D00968E8870 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		03A1B4C12210C7540041B1A4 /* Debug */ = {
+		CA24C0BA347BE4D8B9E3F235 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -187,7 +180,7 @@
 			};
 			name = Debug;
 		};
-		03A1B4C22210C7540041B1A4 /* Release */ = {
+		CA24C1437FD66CFC6CBE1C4B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -241,26 +234,18 @@
 			};
 			name = Release;
 		};
-		03A1B4C42210C7540041B1A4 /* Debug */ = {
+		CA24CAA5E0142EE87670A8DD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VF3Y7UU4D6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
-		03A1B4C52210C7540041B1A4 /* Release */ = {
+		CA24CAC3CD0A4A985E81AA90 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VF3Y7UU4D6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
@@ -268,25 +253,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		03A1B4B72210C7540041B1A4 /* Build configuration list for PBXProject "Bon Appetit" */ = {
+		CA24C35523D287FF07695054 /* Build configuration list for PBXNativeTarget "The Coin Change Problem" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				03A1B4C12210C7540041B1A4 /* Debug */,
-				03A1B4C22210C7540041B1A4 /* Release */,
+				CA24CAA5E0142EE87670A8DD /* Debug */,
+				CA24CAC3CD0A4A985E81AA90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		03A1B4C32210C7540041B1A4 /* Build configuration list for PBXNativeTarget "Bon Appetit" */ = {
+		CA24CB861B8EB7AFFC880A76 /* Build configuration list for PBXProject "The Coin Change Problem" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				03A1B4C42210C7540041B1A4 /* Debug */,
-				03A1B4C52210C7540041B1A4 /* Release */,
+				CA24C0BA347BE4D8B9E3F235 /* Debug */,
+				CA24C1437FD66CFC6CBE1C4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 03A1B4B42210C7540041B1A4 /* Project object */;
+	rootObject = CA24C295B25C5375621ECB90 /* Project object */;
 }
