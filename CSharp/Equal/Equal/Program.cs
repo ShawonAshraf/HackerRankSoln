@@ -27,6 +27,9 @@ namespace Equal
             }
         }
 
+        /*
+         Explanation => https://www.hackerrank.com/challenges/equal/forum/comments/260945
+             */
         static long equal(long[] arr)
         {
             long minimumEl = arr.Min();
@@ -38,16 +41,19 @@ namespace Equal
             {
                 arr[i] -= minimumEl;
 
+                // for 0
                 ops[0] += arr[i] / 5;
                 ops[0] += (arr[i] % 5) / 2;
                 ops[0] += (arr[i] % 5) % 2;
                 arr[i]++;
 
+                // for 1
                 ops[1] += arr[i] / 5;
                 ops[1] += (arr[i] % 5) / 2;
                 ops[1] += (arr[i] % 5) % 2;
                 arr[i]++;
 
+                // for 2
                 ops[2] += arr[i] / 5;
                 ops[2] += (arr[i] % 5) / 2;
                 ops[2] += (arr[i] % 5) % 2;
