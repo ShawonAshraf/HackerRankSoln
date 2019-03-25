@@ -1,1 +1,1 @@
-# HackerRank Problem Solutions in Swift
+# HackerRank Problem Solutions
